@@ -1,41 +1,102 @@
-🚦 Traffic Light (Project A01)
-A simple, real-world inspired traffic light system built using an Arduino Uno to simulate standard traffic transitions with an integrated audio safety feature.
+# 🚦 Traffic Light System (Project A01)
 
-🚀 Main Features
-🟢 Green Light: Active for 20 seconds.
+A real-world inspired traffic light simulation system built using an Arduino Uno.  
+This project demonstrates embedded system fundamentals, including timed state transitions, hardware control, and audio-based safety notifications.
 
-🟡 Yellow Light: Active for 3 seconds.
+---
 
-🔴 Red Light: Active for 15 seconds.
+## 📌 Project Overview
 
-🔊 Buzzer Alert: The buzzer will beep actively when the red light has only 3 seconds remaining to alert pedestrians or drivers.
+The system simulates a standard traffic light sequence using LEDs and includes an integrated buzzer alert feature designed to notify pedestrians or drivers before the red light phase ends.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This project was developed as an introductory embedded systems and hardware programming project using Arduino.
+
+---
+
+## ✨ Features
+
+- 🟢 Green Light Phase — active for 20 seconds
+- 🟡 Yellow Light Phase — active for 3 seconds
+- 🔴 Red Light Phase — active for 15 seconds
+- 🔊 Audio Safety Alert — buzzer beeps during the final 3 seconds of the red light phase
+- ⚡ Automatic looping traffic sequence
+
+---
+
+## 🛠️ Hardware Components
+
+- Arduino Uno
+- Red LED
+- Yellow LED
+- Green LED
+- Buzzer
+- Breadboard
+- Jumper Wires
+- USB Cable
+
+---
+
+## 💻 Technologies Used
+
+### Programming
+- C++ (Arduino Sketch)
+
+### Development Environment
+- VS Code
+- PlatformIO / Arduino IDE
+
+---
+
+## 🔌 System Setup
+
+### 1. Assemble the Circuit
+Connect the LEDs and buzzer to the Arduino Uno using a breadboard and jumper wires.
+
+### 2. Upload the Code
+Connect the Arduino Uno to your computer and upload the source code using PlatformIO or Arduino IDE.
+
+### 3. Run the System
+After powering the board, the traffic light sequence will run automatically.
+
+The buzzer will activate during the final 3 seconds of the red light phase.
+
+---
+
+## 📷 Project Images
+
+### Circuit Setup
+![Circuit Setup]<img width="4284" height="5712" alt="IMG_6145" src="https://github.com/user-attachments/assets/b84b5466-96cc-4494-a921-d692105064d5" />
+
+---
+
+## 🎥 Demo Video
 
 
-🛠️ How to Set Up and Use
-Hardware Setup: Assemble and connect the components (LEDs and buzzer) to your Arduino Uno board using a breadboard and jumper wires.
 
-Upload: Connect the Arduino Uno to your computer and upload the project code via the Arduino IDE.
-
-Run: Power the board. The traffic light sequence will start automatically, and the buzzer will trigger during the final 3 seconds of the red light phase.
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+https://github.com/user-attachments/assets/5bacee27-2d92-4fbe-8f9d-eabc96d182b8
 
 
 
-💻 Technology Used
-Hardware: Arduino Uno, LEDs (Red, Yellow, Green), Buzzer, Breadboard, and Jumper wires.
+---
 
-Language/Software: C++ (Arduino Sketch), VS Code (Visual Studio Code).
+## 📈 Future Improvements
 
+- Pedestrian crossing button
+- 7-segment countdown display
+- Smart traffic timing system
+- IoT monitoring support
+- AI-based traffic density detection
+- Emergency vehicle override mode
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
+## 👤 Author
 
-👤 Author Information
-Name: Le Dang Quynh Anh
+**Le Dang Quynh Anh**  
+Engineering Student from RMIT Vietnam
 
-Role: Engineering Student
+---
 
-Institution: RMIT Vietnam
+## 📄 License
+
+This project is created for educational and portfolio purposes.
